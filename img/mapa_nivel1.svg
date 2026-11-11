@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 620" width="1400" height="620">
+  <title>Cosecha Helada · Nivel 1 El Campo · boceto del mapa</title>
+  <defs>
+    <pattern id="cuadricula" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M20 0 H0 V20" fill="none" stroke="#cfe0f0" stroke-width="1"/>
+    </pattern>
+    <filter id="lapiz" x="-5%" y="-5%" width="110%" height="110%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.035" numOctaves="2" seed="4"/>
+      <feDisplacementMap in="SourceGraphic" scale="3.5"/>
+    </filter>
+    <marker id="flecha" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#d6332b"/>
+    </marker>
+    <marker id="flechaGris" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#555"/>
+    </marker>
+  </defs>
+
+  <rect width="1400" height="620" fill="#fdfcf6"/>
+  <rect width="1400" height="620" fill="url(#cuadricula)"/>
+
+  <g font-family="'Segoe Print', 'Comic Sans MS', 'Chalkboard SE', cursive" fill="#2b2b2b">
+    <text x="30" y="42" font-size="26" font-weight="700">Nivel 1 · El Campo (boceto, vista lateral)</text>
+    <text x="30" y="70" font-size="15" fill="#555">Recorrido de izquierda a derecha · 5 zonas · ~3 min · tutorial integrado</text>
+  </g>
+
+  <!-- ===== Dibujo a lápiz ===== -->
+  <g filter="url(#lapiz)" stroke="#2b2b2b" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Suelo -->
+    <path d="M40 440 H230 Q280 405 330 440 H600"/>
+    <path d="M680 440 H1360"/>
+    <path d="M40 440 V520 M600 440 V520 M680 440 V520 M1360 440 V520"/>
+    <path d="M40 520 H600 M680 520 H1360" stroke-dasharray="8 8"/>
+    <!-- Surcos -->
+    <path d="M350 452 h30 M400 452 h30 M450 452 h30 M500 452 h30 M550 452 h30" stroke-width="2"/>
+    <!-- Canal de riego -->
+    <path d="M600 470 q10 -8 20 0 t20 0 t20 0 t20 0" stroke="#2f7fd1"/>
+    <path d="M600 490 q10 -8 20 0 t20 0 t20 0 t20 0" stroke="#2f7fd1"/>
+    <!-- Tarimas -->
+    <rect x="440" y="352" width="80" height="14"/>
+    <rect x="615" y="382" width="50" height="12"/>
+    <path d="M640 372 v-22 M640 404 v22" stroke="#555" stroke-width="2" marker-end="url(#flechaGris)"/>
+    <rect x="800" y="380" width="72" height="14"/>
+    <rect x="900" y="320" width="72" height="14"/>
+    <rect x="1000" y="260" width="72" height="14"/>
+    <!-- Punto de control (bandera de Tarimín) -->
+    <path d="M740 440 V370"/>
+    <path d="M740 372 l34 10 l-34 10 z" fill="#f2a33a"/>
+    <!-- Camión (meta) -->
+    <rect x="1240" y="370" width="80" height="58"/>
+    <path d="M1320 390 h26 l12 18 v20 h-38 z"/>
+    <circle cx="1262" cy="432" r="10"/><circle cx="1336" cy="432" r="10"/>
+    <!-- Letrero tutorial -->
+    <path d="M150 440 V398"/>
+    <rect x="118" y="372" width="64" height="28"/>
+  </g>
+
+  <!-- Elementos (encima, sin distorsión para que se lean) -->
+  <g font-family="'Segoe UI', Arial, sans-serif" font-weight="700" text-anchor="middle">
+    <!-- Inicio -->
+    <circle cx="80" cy="420" r="16" fill="#3a8d3a"/><text x="80" y="426" font-size="16" fill="#fff">S</text>
+    <!-- Cajas de cosecha -->
+    <g fill="#f6d27a" stroke="#7a5512" stroke-width="2">
+      <rect x="192" y="414" width="22" height="22"/><rect x="469" y="326" width="22" height="22"/>
+      <rect x="825" y="354" width="22" height="22"/><rect x="925" y="294" width="22" height="22"/>
+      <rect x="1025" y="234" width="22" height="22"/><rect x="1110" y="414" width="22" height="22"/>
+    </g>
+    <g font-size="13" fill="#7a5512">
+      <text x="203" y="430">C</text><text x="480" y="342">C</text><text x="836" y="370">C</text>
+      <text x="936" y="310">C</text><text x="1036" y="250">C</text><text x="1121" y="430">C</text>
+    </g>
+    <circle cx="1036" cy="245" r="22" fill="none" stroke="#d6332b" stroke-width="2" stroke-dasharray="4 4"/>
+    <!-- Gusanos -->
+    <g fill="#8a8a93"><path d="M392 440 a14 12 0 0 1 28 0 z"/><path d="M500 440 a14 12 0 0 1 28 0 z"/><path d="M942 440 a14 12 0 0 1 28 0 z"/><path d="M1180 440 a14 12 0 0 1 28 0 z"/></g>
+    <g font-size="12" fill="#fff"><text x="406" y="437">G</text><text x="514" y="437">G</text><text x="956" y="437">G</text><text x="1194" y="437">G</text></g>
+    <!-- Moscas con ruta en zigzag -->
+    <path d="M840 250 l30 20 l30 -20 l30 20" fill="none" stroke="#777" stroke-width="2" stroke-dasharray="5 5"/>
+    <path d="M960 190 l30 20 l30 -20 l30 20" fill="none" stroke="#777" stroke-width="2" stroke-dasharray="5 5"/>
+    <circle cx="880" cy="250" r="13" fill="#4a4a52"/><text x="880" y="255" font-size="12" fill="#fff">M</text>
+    <circle cx="1000" cy="190" r="13" fill="#4a4a52"/><text x="1000" y="195" font-size="12" fill="#fff">M</text>
+    <!-- Objetos -->
+    <rect x="530" y="412" width="18" height="26" rx="5" fill="#3fb34f"/><text x="539" y="430" font-size="11" fill="#fff">T</text>
+    <path d="M1090 380 c-10 -12 -26 0 -14 12 l14 12 l14 -12 c12 -12 -4 -24 -14 -12 z" fill="#e0475a"/>
+    <text x="150" y="391" font-size="12" fill="#2b2b2b">← → ↑</text>
+  </g>
+
+  <!-- Ruta del jugador -->
+  <path d="M96 420 H230 Q280 388 330 420 H440 Q470 300 525 336 Q560 380 590 420 Q640 330 700 420 H790 Q810 340 836 362 Q880 280 936 302 Q980 220 1036 242 Q1080 290 1100 420 H1235"
+        fill="none" stroke="#d6332b" stroke-width="2.5" stroke-dasharray="9 7" marker-end="url(#flecha)"/>
+
+  <!-- Notas de comportamiento -->
+  <g font-family="'Segoe Print', 'Comic Sans MS', cursive" font-size="13.5" fill="#1d3f73">
+    <text x="300" y="300">Gusano ceniza: sale del surco cada 3 s;</text>
+    <text x="300" y="318">1 chorro lo aturde, 2 lo derrotan</text>
+    <path d="M370 324 L404 425" stroke="#1d3f73" stroke-width="1.5" fill="none" marker-end="url(#flechaGris)"/>
+
+    <text x="560" y="560">Canal de riego: caer = −1 vida y</text>
+    <text x="560" y="578">vuelves al último punto de control</text>
+    <path d="M630 545 L640 500" stroke="#1d3f73" stroke-width="1.5" fill="none" marker-end="url(#flechaGris)"/>
+
+    <text x="590" y="290">Tarima flotante: sube y baja cada 2 s</text>
+    <path d="M640 296 L640 376" stroke="#1d3f73" stroke-width="1.5" fill="none" marker-end="url(#flechaGris)"/>
+
+    <text x="690" y="476">Punto de control:</text>
+    <text x="690" y="494">Tarimín guarda las cajas</text>
+    <path d="M742 460 L742 446" stroke="#1d3f73" stroke-width="1.5" fill="none" marker-end="url(#flechaGris)"/>
+
+    <text x="760" y="150">Mosca zumbadora: patrulla en zigzag y</text>
+    <text x="760" y="168">baja en picada si pasas debajo</text>
+    <path d="M850 174 L876 234" stroke="#1d3f73" stroke-width="1.5" fill="none" marker-end="url(#flechaGris)"/>
+
+    <text x="1075" y="222">Caja secreta: +500</text>
+
+    <text x="1180" y="330">Meta: cargar el camión</text>
+    <text x="1180" y="350">Bono por cada caja entregada</text>
+  </g>
+
+  <!-- Zonas -->
+  <g font-family="'Segoe UI', Arial, sans-serif" font-size="13" fill="#444" text-anchor="middle">
+    <path d="M40 545 H330 M340 545 H590 M600 545 H790 M800 545 H1070 M1080 545 H1360" stroke="#999" stroke-width="2"/>
+    <text x="185" y="600">Zona 1 · Tutorial: mover y saltar</text>
+    <text x="465" y="600">Zona 2 · Manguera vs. gusanos</text>
+    <text x="695" y="600">Zona 3 · Saltar el canal</text>
+    <text x="935" y="600">Zona 4 · Tarimas y moscas</text>
+    <text x="1220" y="600">Zona 5 · Carrera al camión</text>
+  </g>
+
+  <!-- Simbología -->
+  <g font-family="'Segoe UI', Arial, sans-serif" font-size="13" fill="#2b2b2b">
+    <rect x="1110" y="22" width="270" height="110" fill="#ffffff" stroke="#999" stroke-width="1.5"/>
+    <text x="1122" y="42" font-weight="700">Simbología</text>
+    <circle cx="1130" cy="60" r="8" fill="#3a8d3a"/><text x="1145" y="64">Inicio</text>
+    <rect x="1200" y="52" width="16" height="16" fill="#f6d27a" stroke="#7a5512"/><text x="1222" y="64">Caja de cosecha</text>
+    <path d="M1122 90 a8 7 0 0 1 16 0 z" fill="#8a8a93"/><text x="1145" y="90">Gusano</text>
+    <circle cx="1208" cy="84" r="8" fill="#4a4a52"/><text x="1222" y="88">Mosca</text>
+    <rect x="1124" y="100" width="10" height="16" rx="3" fill="#3fb34f"/><text x="1145" y="113">Tanque</text>
+    <path d="M1200 120 h40" stroke="#d6332b" stroke-width="2.5" stroke-dasharray="7 5"/><text x="1248" y="124">Ruta sugerida</text>
+  </g>
+</svg>

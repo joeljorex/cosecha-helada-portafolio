@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 1060" width="1500" height="1060">
+  <title>Cosecha Helada · storyboard de la escena de introducción (bocetos)</title>
+  <defs>
+    <filter id="lapiz" x="-5%" y="-5%" width="110%" height="110%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.04" numOctaves="2" seed="7"/>
+      <feDisplacementMap in="SourceGraphic" scale="3"/>
+    </filter>
+  </defs>
+  <rect width="1500" height="1060" fill="#fbfaf4"/>
+  <text x="40" y="54" font-family="'Segoe Print', 'Comic Sans MS', cursive" font-size="28" font-weight="700" fill="#2b2b2b">Storyboard · Intro "La Plaga Gris" (≈45 s)</text>
+  <text x="40" y="82" font-family="'Segoe UI', Arial, sans-serif" font-size="15" fill="#666">Bocetos a lápiz · 6 tomas · se reproduce al empezar una partida nueva (se puede saltar con Enter)</text>
+
+  <!-- Marcos -->
+  <g fill="#ffffff" stroke="#2b2b2b" stroke-width="3">
+    <rect x="40" y="110" width="440" height="250"/><rect x="530" y="110" width="440" height="250"/><rect x="1020" y="110" width="440" height="250"/>
+    <rect x="40" y="580" width="440" height="250"/><rect x="530" y="580" width="440" height="250"/><rect x="1020" y="580" width="440" height="250"/>
+  </g>
+  <g font-family="'Segoe UI', Arial, sans-serif" font-size="15" font-weight="700" fill="#ffffff">
+    <rect x="40" y="110" width="34" height="26" fill="#2b2b2b"/><text x="51" y="129">1</text>
+    <rect x="530" y="110" width="34" height="26" fill="#2b2b2b"/><text x="541" y="129">2</text>
+    <rect x="1020" y="110" width="34" height="26" fill="#2b2b2b"/><text x="1031" y="129">3</text>
+    <rect x="40" y="580" width="34" height="26" fill="#2b2b2b"/><text x="51" y="599">4</text>
+    <rect x="530" y="580" width="34" height="26" fill="#2b2b2b"/><text x="541" y="599">5</text>
+    <rect x="1020" y="580" width="34" height="26" fill="#2b2b2b"/><text x="1031" y="599">6</text>
+  </g>
+
+  <g filter="url(#lapiz)" stroke="#2b2b2b" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <!-- 1 · Amanecer en el valle -->
+    <path d="M40 260 H480"/>
+    <path d="M200 260 a60 60 0 0 1 120 0" />
+    <path d="M190 200 l-12 -14 M260 185 v-18 M330 200 l12 -14"/>
+    <path d="M70 220 l40 -25 l40 18 l50 -30 l40 37"/>
+    <path d="M260 260 L60 360 M260 260 L180 360 M260 260 L300 360 M260 260 L420 360"/>
+    <circle cx="380" cy="282" r="9"/><path d="M380 291 v28 M380 300 l-12 10 M380 300 l12 8 M380 319 l-9 18 M380 319 l9 18"/>
+    <path d="M369 276 h22"/>
+
+    <!-- 2 · Llega la Plaga Gris -->
+    <path d="M550 200 q20 -60 80 -40 q30 -50 90 -20 q40 -40 100 0 q60 -10 70 50 q40 30 -10 60 q-40 30 -100 10 q-50 30 -110 0 q-60 20 -100 -20 q-40 -10 -20 -40 z" fill="#d6d6dc"/>
+    <path d="M540 330 H960"/>
+    <path d="M600 330 v-30 q-12 -6 -14 -18 M600 312 q12 -6 16 -16 M720 330 v-26 q-10 -6 -12 -16 M840 330 v-30 q12 -6 14 -18"/>
+    <path d="M650 260 l10 30 M760 255 l-8 34 M880 262 l6 30" stroke-dasharray="4 6"/>
+
+    <!-- 3 · Dr. Ceniza en su dron -->
+    <ellipse cx="1240" cy="250" rx="120" ry="34" fill="#e6e6ea"/>
+    <path d="M1130 240 v-40 M1350 240 v-40 M1095 200 h70 M1315 200 h70"/>
+    <circle cx="1240" cy="190" r="34"/>
+    <circle cx="1226" cy="184" r="9"/><circle cx="1256" cy="184" r="9"/><path d="M1235 184 h12"/>
+    <path d="M1220 204 q20 16 40 0"/>
+    <path d="M1206 166 q34 -24 68 0"/>
+    <path d="M1180 300 l-14 30 M1300 300 l14 30" stroke-dasharray="4 6"/>
+
+    <!-- 4 · Don Chuy pide ayuda -->
+    <path d="M120 690 h150 q-10 -26 -75 -26 q-65 0 -75 26 z"/>
+    <path d="M150 690 q45 -40 90 0"/>
+    <circle cx="195" cy="720" r="34"/>
+    <path d="M180 712 h8 M204 712 h8 M182 738 q13 -8 26 0"/>
+    <path d="M178 726 q17 10 34 0"/>
+    <path d="M150 830 q10 -60 45 -76 q35 16 45 76"/>
+    <path d="M360 830 v-60 q-30 10 -40 -14 M360 790 q30 -4 34 24"/>
+    <path d="M250 640 h200 v60 h-130 l-24 22 l4 -22 h-50 z" fill="#ffffff"/>
+
+    <!-- 5 · Llega Tarimín -->
+    <circle cx="640" cy="690" r="22"/>
+    <path d="M618 680 h44 M622 672 q18 -16 36 0"/>
+    <path d="M620 712 h40 v70 h-40 z"/>
+    <path d="M626 782 v40 M654 782 v40"/>
+    <path d="M660 730 h40 q60 -20 110 10" stroke-dasharray="10 7"/>
+    <rect x="820" y="700" width="90" height="74" rx="10"/>
+    <rect x="834" y="712" width="62" height="26" rx="5"/>
+    <circle cx="850" cy="725" r="5"/><circle cx="880" cy="725" r="5"/>
+    <path d="M910 690 v110 M910 800 h40"/>
+    <circle cx="840" cy="790" r="14"/><circle cx="895" cy="790" r="14"/>
+    <path d="M770 790 h-30 M780 805 h-40" stroke-dasharray="6 6"/>
+    <path d="M700 620 h180 v50 h-120 l-24 18 l6 -18 h-42 z" fill="#ffffff"/>
+
+    <!-- 6 · Título -->
+    <path d="M1060 760 H1420"/>
+    <path d="M1110 650 l10 -18 l10 18 M1390 640 l8 -14 l8 14 M1350 790 l8 -14 l8 14"/>
+  </g>
+
+  <!-- Textos dentro de los cuadros -->
+  <g font-family="'Segoe Print', 'Comic Sans MS', cursive" fill="#2b2b2b">
+    <text x="610" y="182" font-size="18" fill="#c03030">● ●   ● ●</text>
+    <text x="1300" y="160" font-size="22" font-weight="700">¡JA, JA!</text>
+    <text x="262" y="665" font-size="14">¡Luz, se nos va</text>
+    <text x="262" y="685" font-size="14">la cosecha!</text>
+    <text x="712" y="642" font-size="14">¡Lista, compañero!</text>
+    <text x="712" y="660" font-size="13">¡A congelar plagas!</text>
+    <text x="1240" y="725" text-anchor="middle" font-family="Impact, 'Arial Black', sans-serif" font-size="56" fill="#5aaee6" stroke="#0d2a4a" stroke-width="3" paint-order="stroke">COSECHA HELADA</text>
+    <text x="1240" y="800" text-anchor="middle" font-size="16">presiona Enter</text>
+  </g>
+
+  <!-- Descripciones de cada toma -->
+  <g font-family="'Segoe UI', Arial, sans-serif" font-size="14" fill="#333">
+    <text x="40" y="388" font-weight="700" font-size="16">Toma 1 · Amanecer en el valle (6 s)</text>
+    <text x="40" y="410">Plano general. Luz camina por los surcos rumbo a la planta.</text>
+    <text x="40" y="430">Cámara: paneo lento de izquierda a derecha.</text>
+    <text x="40" y="450">Audio: tema del Nivel 1 suave, pájaros, viento.</text>
+
+    <text x="530" y="388" font-weight="700" font-size="16">Toma 2 · Llega la Plaga Gris (7 s)</text>
+    <text x="530" y="410">Una nube gris con ojos rojos tapa el sol; las plantas</text>
+    <text x="530" y="430">se marchitan. Cámara: contrapicado y zoom lento.</text>
+    <text x="530" y="450">Audio: zumbido que crece y la música se corta.</text>
+
+    <text x="1020" y="388" font-weight="700" font-size="16">Toma 3 · Dr. Ceniza (6 s)</text>
+    <text x="1020" y="410">El villano aparece en su dron fumigador y se ríe.</text>
+    <text x="1020" y="430">Cámara: plano medio con un leve temblor.</text>
+    <text x="1020" y="450">Audio: motor del dron + risa + acorde grave.</text>
+
+    <text x="40" y="858" font-weight="700" font-size="16">Toma 4 · Don Chuy pide ayuda (8 s)</text>
+    <text x="40" y="880">Primer plano del agricultor junto a una planta seca.</text>
+    <text x="40" y="900">Cámara: fija; burbuja de diálogo.</text>
+    <text x="40" y="920">Audio: diálogo con "voces" tipo blip.</text>
+
+    <text x="530" y="858" font-weight="700" font-size="16">Toma 5 · Llega Tarimín (8 s)</text>
+    <text x="530" y="880">Luz toma la manguera; el robot montacargas llega rodando.</text>
+    <text x="530" y="900">Cámara: plano americano y corte a los dos.</text>
+    <text x="530" y="920">Audio: motor eléctrico; la música vuelve con más energía.</text>
+
+    <text x="1020" y="858" font-weight="700" font-size="16">Toma 6 · Pantalla de título (10 s)</text>
+    <text x="1020" y="880">El logo cae con escarcha y aparece "presiona Enter".</text>
+    <text x="1020" y="900">Cámara: logo centrado con partículas de nieve.</text>
+    <text x="1020" y="920">Audio: golpe musical + tema principal en bucle.</text>
+  </g>
+  <text x="40" y="1020" font-family="'Segoe UI', Arial, sans-serif" font-size="13" fill="#888">Bocetos de referencia: el arte final se hará en pixel art de 16×16 y 32×32 (Aseprite o LibreSprite).</text>
+</svg>

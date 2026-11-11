@@ -1,0 +1,70 @@
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  height: 100%;
+  background: #140c1c;
+  overflow: hidden;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+#juego {
+  position: fixed;
+  inset: 0;
+}
+
+#juego canvas { image-rendering: pixelated; }
+
+.error {
+  color: #fff8e1;
+  font: 14px/1.6 system-ui, sans-serif;
+  text-align: center;
+  padding: 40px 16px;
+}
+
+/* ---- Controles táctiles ---- */
+#tactil { display: none; }
+
+@media (pointer: coarse) {
+  #tactil { display: block; }
+}
+
+#tactil button {
+  width: 56px;
+  height: 56px;
+  margin: 4px;
+  border: 2px solid rgba(255, 248, 225, 0.55);
+  border-radius: 50%;
+  background: rgba(20, 12, 28, 0.45);
+  color: #fff8e1;
+  font-size: 22px;
+  line-height: 1;
+  touch-action: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+#tactil button.activo { background: rgba(255, 210, 63, 0.55); }
+
+#tactil .grupo {
+  position: fixed;
+  bottom: max(10px, env(safe-area-inset-bottom));
+  display: flex;
+}
+
+#tactil .izquierda { left: max(10px, env(safe-area-inset-left)); }
+#tactil .derecha { right: max(10px, env(safe-area-inset-right)); }
+
+#tactil .arriba {
+  position: fixed;
+  top: 26px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+
+#tactil .arriba button {
+  width: 40px;
+  height: 40px;
+  font-size: 16px;
+}

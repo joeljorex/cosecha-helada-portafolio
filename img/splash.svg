@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 640" width="1280" height="640">
+  <title>Cosecha Helada · imagen de presentación</title>
+  <defs>
+    <linearGradient id="cielo" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#22174a"/>
+      <stop offset="0.42" stop-color="#b8456e"/>
+      <stop offset="0.72" stop-color="#ff9a4d"/>
+      <stop offset="1" stop-color="#ffd27a"/>
+    </linearGradient>
+    <linearGradient id="hielo" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.55" stop-color="#bfe9ff"/>
+      <stop offset="1" stop-color="#4fa9e0"/>
+    </linearGradient>
+    <linearGradient id="campo" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4f8f2b"/>
+      <stop offset="1" stop-color="#1c4512"/>
+    </linearGradient>
+    <radialGradient id="nube" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#7d7d86"/>
+      <stop offset="1" stop-color="#4a4a52" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1280" height="640" fill="url(#cielo)"/>
+  <circle cx="930" cy="360" r="95" fill="#ffe08a" opacity="0.92"/>
+
+  <!-- Cerros del desierto -->
+  <path d="M0 385 L110 335 L220 352 L350 268 L470 332 L560 300 L700 362 L830 318 L960 352 L1085 286 L1200 338 L1280 318 L1280 430 L0 430 Z" fill="#5a2d55"/>
+  <path d="M0 405 L160 372 L300 398 L450 362 L640 402 L800 378 L1000 404 L1150 372 L1280 398 L1280 440 L0 440 Z" fill="#3a2140"/>
+
+  <!-- Campo con surcos en perspectiva -->
+  <rect y="432" width="1280" height="208" fill="url(#campo)"/>
+  <g stroke="#2a5c17" stroke-width="7" stroke-linecap="round">
+    <line x1="640" y1="432" x2="-400" y2="640"/>
+    <line x1="640" y1="432" x2="-120" y2="640"/>
+    <line x1="640" y1="432" x2="160" y2="640"/>
+    <line x1="640" y1="432" x2="440" y2="640"/>
+    <line x1="640" y1="432" x2="720" y2="640"/>
+    <line x1="640" y1="432" x2="1000" y2="640"/>
+    <line x1="640" y1="432" x2="1280" y2="640"/>
+    <line x1="640" y1="432" x2="1560" y2="640"/>
+  </g>
+  <g fill="#7cc243">
+    <circle cx="300" cy="560" r="9"/><circle cx="360" cy="530" r="7"/><circle cx="420" cy="505" r="6"/>
+    <circle cx="840" cy="530" r="7"/><circle cx="900" cy="560" r="9"/><circle cx="780" cy="505" r="6"/>
+    <circle cx="560" cy="600" r="10"/><circle cx="720" cy="600" r="10"/>
+  </g>
+
+  <!-- La Plaga Gris -->
+  <g>
+    <ellipse cx="190" cy="120" rx="170" ry="70" fill="url(#nube)"/>
+    <ellipse cx="120" cy="105" rx="80" ry="45" fill="#5b5b64" opacity="0.85"/>
+    <ellipse cx="230" cy="95" rx="95" ry="50" fill="#666670" opacity="0.85"/>
+    <ellipse cx="300" cy="130" rx="70" ry="38" fill="#55555e" opacity="0.85"/>
+    <g fill="#ff4d4d">
+      <circle cx="150" cy="105" r="4"/><circle cx="162" cy="105" r="4"/>
+      <circle cx="250" cy="92" r="4"/><circle cx="262" cy="92" r="4"/>
+      <circle cx="300" cy="128" r="3"/><circle cx="310" cy="128" r="3"/>
+    </g>
+  </g>
+
+  <!-- Título escarchado -->
+  <text x="640" y="200" text-anchor="middle" font-family="Impact, 'Arial Black', 'Segoe UI', sans-serif" font-size="124" letter-spacing="4"
+        fill="url(#hielo)" stroke="#0d2a4a" stroke-width="7" paint-order="stroke">COSECHA HELADA</text>
+  <text x="640" y="252" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="30" font-weight="700" fill="#ffffff"
+        stroke="#22174a" stroke-width="4" paint-order="stroke">La defensa del campo sonorense</text>
+
+  <!-- Luz Rubio con la manguera -->
+  <g transform="translate(330 430)">
+    <rect x="-16" y="-70" width="32" height="56" rx="8" fill="#1f5fa8"/>
+    <rect x="-14" y="-16" width="11" height="34" fill="#173f6e"/>
+    <rect x="3" y="-16" width="11" height="34" fill="#173f6e"/>
+    <circle cx="0" cy="-88" r="17" fill="#c98b5e"/>
+    <path d="M-20 -96 h40 v-8 a20 12 0 0 0 -40 0 z" fill="#ffd23f"/>
+    <rect x="12" y="-62" width="36" height="9" rx="4" fill="#2f2f2f"/>
+    <path d="M48 -58 q60 -30 130 -10" stroke="#9fdcff" stroke-width="7" fill="none" stroke-linecap="round" stroke-dasharray="14 9"/>
+  </g>
+
+  <!-- Tarimín, el robot montacargas -->
+  <g transform="translate(980 440)">
+    <rect x="-48" y="-80" width="70" height="60" rx="10" fill="#f2a33a" stroke="#6b3d0b" stroke-width="4"/>
+    <rect x="-36" y="-70" width="46" height="22" rx="5" fill="#16303f"/>
+    <circle cx="-24" cy="-59" r="5" fill="#7ef0ff"/><circle cx="-2" cy="-59" r="5" fill="#7ef0ff"/>
+    <rect x="22" y="-110" width="8" height="90" fill="#555"/>
+    <rect x="22" y="-28" width="44" height="7" fill="#555"/>
+    <circle cx="-34" cy="-14" r="12" fill="#222"/><circle cx="10" cy="-14" r="12" fill="#222"/>
+  </g>
+
+  <text x="1260" y="625" text-anchor="end" font-family="'Segoe UI', Arial, sans-serif" font-size="16" fill="#e8f6d8">Proyecto de equipo · UTH · IDGS 8-2</text>
+</svg>

@@ -1,0 +1,173 @@
+{
+  "proyecto": "Cosecha Helada · Portafolio",
+  "etiquetas": {
+    "documentación": "0E8A16",
+    "diseño": "FBCA04",
+    "arte": "D93F0B",
+    "audio": "5319E7",
+    "programación": "1D76DB",
+    "git": "333333"
+  },
+  "sprints": [
+    "Sprint 1 · Preproducción",
+    "Sprint 2 · Prototipo",
+    "Sprint 3 · Mecánicas",
+    "Sprint 4 · Nivel 1"
+  ],
+  "tarjetas": [
+    {
+      "titulo": "Definir concepto, nombre y pilares del juego",
+      "etiqueta": "diseño",
+      "sprint": "Sprint 1 · Preproducción",
+      "estado": "Hecho",
+      "descripcion": "Concepto en una línea, género, público objetivo y pilares de diseño (GDD §1 a §3)."
+    },
+    {
+      "titulo": "Redactar el GDD v1",
+      "etiqueta": "documentación",
+      "sprint": "Sprint 1 · Preproducción",
+      "estado": "Hecho",
+      "descripcion": "Historia, personajes, niveles, armas, vestimenta, objetos, música, efectos, score, plan de trabajo y créditos en docs/GDD.md."
+    },
+    {
+      "titulo": "Documento técnico de hardware y software",
+      "etiqueta": "documentación",
+      "sprint": "Sprint 1 · Preproducción",
+      "estado": "Hecho",
+      "descripcion": "Requerimientos de equipo por perfil (2D, animación, 3D) y herramientas de software en docs/Documento_tecnico_requerimientos.md."
+    },
+    {
+      "titulo": "Imagen de presentación (splash)",
+      "etiqueta": "arte",
+      "sprint": "Sprint 1 · Preproducción",
+      "estado": "Hecho",
+      "descripcion": "img/splash.svg con el logo, Luz, Tarimín y la Plaga Gris."
+    },
+    {
+      "titulo": "Boceto del mapa del Nivel 1",
+      "etiqueta": "diseño",
+      "sprint": "Sprint 1 · Preproducción",
+      "estado": "Hecho",
+      "descripcion": "img/mapa_nivel1.svg: 5 zonas, enemigos, cajas, punto de control y ruta sugerida."
+    },
+    {
+      "titulo": "Storyboard de la intro",
+      "etiqueta": "arte",
+      "sprint": "Sprint 1 · Preproducción",
+      "estado": "Hecho",
+      "descripcion": "img/storyboard.svg: 6 tomas con cámara y audio."
+    },
+    {
+      "titulo": "Guion de la intro, entre niveles y final",
+      "etiqueta": "documentación",
+      "sprint": "Sprint 1 · Preproducción",
+      "estado": "Hecho",
+      "descripcion": "Diálogos de Luz, Don Chuy, Tarimín, Ing. Marisol y Dr. Ceniza (GDD §14)."
+    },
+    {
+      "titulo": "Cálculo del score",
+      "etiqueta": "diseño",
+      "sprint": "Sprint 1 · Preproducción",
+      "estado": "Hecho",
+      "descripcion": "Puntos por evento, combo, fórmula por nivel, ejemplo y rangos (GDD §17)."
+    },
+    {
+      "titulo": "Crear repositorio, README y tablero",
+      "etiqueta": "git",
+      "sprint": "Sprint 1 · Preproducción",
+      "estado": "Hecho",
+      "descripcion": "Repositorio público, README con enlaces y este tablero de GitHub Projects."
+    },
+    {
+      "titulo": "Fotos y nombres de los integrantes en la portada",
+      "etiqueta": "documentación",
+      "sprint": "Sprint 1 · Preproducción",
+      "estado": "En progreso",
+      "descripcion": "Nombres listos (Joel Armando Ibarra Rubalcava y Jorge Humberto Martínez Delgado). Faltan las fotos en img/integrantes/, la materia y el docente."
+    },
+    {
+      "titulo": "Reglas de Git: ramas, commits y pull requests",
+      "etiqueta": "git",
+      "sprint": "Sprint 1 · Preproducción",
+      "estado": "En progreso",
+      "descripcion": "Proteger main, crear develop y acordar Conventional Commits (GDD §18)."
+    },
+    {
+      "titulo": "Publicar el prototipo en GitHub Pages",
+      "etiqueta": "git",
+      "sprint": "Sprint 2 · Prototipo",
+      "estado": "Hecho",
+      "descripcion": "Activar Pages en main y enlazar el juego desde el README y el GDD."
+    },
+    {
+      "titulo": "Prototipo de movimiento y salto en Phaser",
+      "etiqueta": "programación",
+      "sprint": "Sprint 2 · Prototipo",
+      "estado": "Hecho",
+      "descripcion": "juego/: escena base, física arcade, salto variable con margen de salto, deslizarse y cámara que sigue a Luz."
+    },
+    {
+      "titulo": "Mapa gris del Nivel 1 en Tiled",
+      "etiqueta": "diseño",
+      "sprint": "Sprint 2 · Prototipo",
+      "estado": "En progreso",
+      "descripcion": "El Nivel 1 ya está armado por código en juego/js/nivel1.js con las 5 zonas del boceto. Falta pasarlo a Tiled y cargarlo como JSON."
+    },
+    {
+      "titulo": "Sprites de Luz: reposo, correr y saltar",
+      "etiqueta": "arte",
+      "sprint": "Sprint 2 · Prototipo",
+      "estado": "En progreso",
+      "descripcion": "Hay sprites provisionales dibujados por código (16×24). Falta el pixel art final de 32×32: reposo (4 cuadros), correr (6) y saltar (3)."
+    },
+    {
+      "titulo": "Manguera, gusanos y moscas",
+      "etiqueta": "programación",
+      "sprint": "Sprint 3 · Mecánicas",
+      "estado": "Hecho",
+      "descripcion": "Manguera que aturde (1 chorro) y derrota (2), rociador con tanque verde, gusano que sale del surco cada 3 s y escupe, y mosca en zigzag que baja en picada."
+    },
+    {
+      "titulo": "Cajas de cosecha y puntos de control",
+      "etiqueta": "programación",
+      "sprint": "Sprint 3 · Mecánicas",
+      "estado": "Hecho",
+      "descripcion": "5 cajas + 1 caja secreta, entrega a Tarimín (+25 por caja), reaparición en el último punto de control y canal de riego que quita una vida."
+    },
+    {
+      "titulo": "Tileset del campo",
+      "etiqueta": "arte",
+      "sprint": "Sprint 3 · Mecánicas",
+      "estado": "En progreso",
+      "descripcion": "Tiles provisionales de 16×16 (pasto, surco, tierra, concreto, tarima, agua y paca) y fondo con parallax. Falta el tileset final en Aseprite."
+    },
+    {
+      "titulo": "Música \"Amanecer en el surco\"",
+      "etiqueta": "audio",
+      "sprint": "Sprint 4 · Nivel 1",
+      "estado": "En progreso",
+      "descripcion": "Versión chiptune de 120 BPM generada con Web Audio en juego/js/audio.js. Falta hacerla en BeepBox y exportarla a .ogg."
+    },
+    {
+      "titulo": "Efectos de sonido básicos",
+      "etiqueta": "audio",
+      "sprint": "Sprint 4 · Nivel 1",
+      "estado": "Hecho",
+      "descripcion": "Salto, manguera, rociador, caja, entrega, daño, derrota, agua y victoria generados con Web Audio en juego/js/audio.js."
+    },
+    {
+      "titulo": "HUD y score en pantalla",
+      "etiqueta": "programación",
+      "sprint": "Sprint 4 · Nivel 1",
+      "estado": "Hecho",
+      "descripcion": "Corazones, vidas, puntos, arma, combo, cajas, tiempo y pantalla de resultados con el desglose del GDD §17, rango y récord."
+    },
+    {
+      "titulo": "Video de presentación del portafolio",
+      "etiqueta": "documentación",
+      "sprint": "Sprint 4 · Nivel 1",
+      "estado": "Por hacer",
+      "descripcion": "Video corto que muestre el GDD, el documento técnico y el tablero."
+    }
+  ]
+}

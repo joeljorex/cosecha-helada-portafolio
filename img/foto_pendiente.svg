@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <title>Foto pendiente</title>
+  <rect width="200" height="200" rx="100" fill="#e3eef7"/>
+  <circle cx="100" cy="78" r="38" fill="#9db6cc"/>
+  <path d="M30 175 a70 60 0 0 1 140 0 z" fill="#9db6cc"/>
+  <text x="100" y="192" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="16" fill="#4c6680">poner foto</text>
+</svg>

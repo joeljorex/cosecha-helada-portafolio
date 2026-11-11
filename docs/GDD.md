@@ -28,7 +28,7 @@
 |---|---|
 | **Repositorio** | https://github.com/joeljorex/cosecha-helada-portafolio |
 | **Prototipo jugable (Nivel 1)** | https://joeljorex.github.io/cosecha-helada-portafolio/ |
-| **Proyecto (tablero de tarjetas)** | _(se agrega el enlace al crear el tablero en GitHub Projects)_ |
+| **Proyecto (tarjetas)** | https://github.com/joeljorex/cosecha-helada-portafolio/issues?q=is%3Aissue · tablero de GitHub Projects _(se agrega el enlace al crearlo)_ |
 | **Documento técnico** | [Documento_tecnico_requerimientos.md](Documento_tecnico_requerimientos.md) |
 
 ---

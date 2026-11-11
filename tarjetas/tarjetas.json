@@ -142,7 +142,7 @@
       "descripcion": "Tiles provisionales de 16×16 (pasto, surco, tierra, concreto, tarima, agua y paca) y fondo con parallax. Falta el tileset final en Aseprite."
     },
     {
-      "titulo": "Música \"Amanecer en el surco\"",
+      "titulo": "Música: Amanecer en el surco",
       "etiqueta": "audio",
       "sprint": "Sprint 4 · Nivel 1",
       "estado": "En progreso",

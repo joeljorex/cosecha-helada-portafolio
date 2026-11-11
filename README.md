@@ -38,7 +38,7 @@ Portafolio de equipo para la propuesta del videojuego **Cosecha Helada**: un jue
 |---|---|
 | 📘 **Documento de Diseño de Juego (GDD)** | [docs/GDD.md](docs/GDD.md) |
 | 🖥️ **Documento técnico: hardware y software** | [docs/Documento_tecnico_requerimientos.md](docs/Documento_tecnico_requerimientos.md) |
-| 🗂️ **Proyecto en GitHub (tarjetas)** | _(enlace al tablero de GitHub Projects)_ |
+| 🗂️ **Proyecto en GitHub (tarjetas)** | [22 tarjetas (issues)](https://github.com/joeljorex/cosecha-helada-portafolio/issues?q=is%3Aissue) · tablero de GitHub Projects _(en cuanto se active el permiso)_ |
 | 🎮 **Prototipo jugable del Nivel 1** | [juego/](juego/) · [jugar en línea](https://joeljorex.github.io/cosecha-helada-portafolio/) |
 | 🗺️ Mapa del Nivel 1 (boceto) | [img/mapa_nivel1.svg](img/mapa_nivel1.svg) |
 | 🎬 Storyboard de la intro | [img/storyboard.svg](img/storyboard.svg) |
@@ -64,7 +64,7 @@ Portafolio de equipo para la propuesta del videojuego **Cosecha Helada**: un jue
 
 El trabajo se organiza en **GitHub Projects**: cada tarea es un *issue* con su etiqueta (`documentación`, `diseño`, `arte`, `audio`, `programación`, `git`) y su sprint. Las columnas son **Por hacer → En progreso → Hecho**.
 
-Las tarjetas están en [tarjetas/tarjetas.json](tarjetas/tarjetas.json). El script [tarjetas/crear_tarjetas.ps1](tarjetas/crear_tarjetas.ps1) las crea en GitHub con un solo comando (requiere `gh auth refresh -s project`).
+Las tarjetas están en [tarjetas/tarjetas.json](tarjetas/tarjetas.json) y ya están creadas como [issues](https://github.com/joeljorex/cosecha-helada-portafolio/issues?q=is%3Aissue). El script [tarjetas/crear_tarjetas.ps1](tarjetas/crear_tarjetas.ps1) las crea o actualiza sin duplicar y arma el tablero (para el tablero se necesita `gh auth refresh -s project`).
 
 ## 🌿 Flujo de Git
 
